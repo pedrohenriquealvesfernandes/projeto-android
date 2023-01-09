@@ -29,7 +29,7 @@ header > h1{
     font-size: 3em;
     margin-bottom: 16px;
     text-shadow: 1.5px 2px 1px rgba(0, 0, 0, 0.404);
-
+    padding:2px;
 }
 
 header > p{
@@ -41,6 +41,8 @@ header > p{
     max-width: 600px;
     min-width: 300px;
     text-shadow: 1.5px 2px 1px rgba(0, 0, 0, 0.404);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav{
@@ -113,7 +115,6 @@ h2{
     color: #063D1E;
 }
 
-
 article > img#android{
     width: 100%;
 }
@@ -153,15 +154,9 @@ div#video > iframe{ /*video responsivo */
 }
 
 aside{
-    max-width: 980px;
-    max-height: 970px;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    text-align: justify;
     background-color: #83E1AD;
     border-radius: 10px;   
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.322);
+    padding: 10px;
 }
 
 aside> p > a{
@@ -179,7 +174,7 @@ aside > ul{
     max-height: 200px;
     height: 200px;
     list-style-type: "\1F5F8\00A0";  
-      
+    padding: 0px;
 }
 
 h3#extra01{
@@ -195,7 +190,7 @@ h3#extra01{
     margin: -10px;
 }
 
-article > p.agradecimento{
+article  p.agradecimento{
     text-indent: 25px;
 }
 
